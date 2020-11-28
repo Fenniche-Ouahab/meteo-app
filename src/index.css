@@ -9,7 +9,7 @@ body {
 }
 
 .app {
-  background-image: url("./assets/4.jpg");
+  background-image: url("./assets/3.jpg");
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
@@ -29,6 +29,21 @@ main {
   padding: 25px;
 }
 
+.text {
+  font-size: 30px;
+  color: white;
+  width: 100%;
+  padding-right: auto;
+  padding-left: 20px;
+  margin: 0 10px 10px;
+}
+
+.text .bienvenue {
+  color: orangered;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
 .search-box {
   width: 100%;
   margin: 0 0 75px;

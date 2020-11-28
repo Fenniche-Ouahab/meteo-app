@@ -52,7 +52,12 @@ function App() {
 
   return (
     <div className={(typeof meteo.main != "undefined") ? ((meteo.main.temp > 16) ? 'app warm' : 'app') : 'app'}>
-
+      <div className="text">
+        <h1 className="bienvenue">BIENVENUE</h1>
+        <br />
+        <p> Choisissez une ville, dans le monde entier, pour obtenir la météo :</p>
+      </div>
+      <br />
       <main>
         <div className="search-box">
           <input
@@ -64,8 +69,10 @@ function App() {
             onKeyPress={recherche}
           />
         </div>
+
         {(typeof meteo.main != "undefined") ? (
           <div>
+
             <div className="emplacement-box">
               <div className="emplacement">{meteo.name}, {meteo.sys.country}</div>
               <div className="date">{dateBuilder(new Date())}</div>
