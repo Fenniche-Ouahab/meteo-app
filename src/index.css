@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "montseratt", sans-serif;
+  font-family: "Gill Sans Extrabold", sans-serif;
 }
 
 .app {
@@ -18,6 +18,7 @@ body {
 .app.warn {
   background-image: url("./assets/5.jpg");
 }
+
 main {
   min-height: 100vh;
   background-image: linear-gradient(
@@ -149,4 +150,59 @@ main {
   font-size: 48px;
   font-weight: 700;
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+#Mist {
+  color: darkgray;
+  background: url("./assets/icons/broullard.png") no-repeat;
+  padding: 15px 70px;
+  font-size: 20px;
+  font-weight: 900;
+
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+
+#Clear {
+  color: yellow;
+  background: url("./assets/icons/soleil.svg") no-repeat;
+  padding: 15px 70px;
+  font-size: 20px;
+  font-weight: 900;
+
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+
+#Clouds {
+  background: url("./assets/icons/nuages.svg") no-repeat;
+  padding: 15px 70px;
+  font-size: 20px;
+  font-weight: 900;
+
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+  margin: 50px auto;
+  border-radius: 16px;
+}
+
+#Rain {
+  color: mediumblue;
+  background: url("./assets/icons/pluie.svg") no-repeat;
+  padding: 15px 70px;
+  font-size: 20px;
+  font-weight: 900;
+
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+  margin: 50px auto;
+  border-radius: 16px;
 }

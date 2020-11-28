@@ -40,16 +40,16 @@ function App() {
   function Meteo(props) {
 
     if (meteo.weather[0].main === "Mist") {
-      return <h1>Brouillard</h1>
+      return <div id="Mist"><h1>Brouillard</h1></div>
     } else if (meteo.weather[0].main === "Clear") {
-      return <h1>Clairs</h1>
+      return <div id="Clear"><h1>Clairs</h1></div>
     } else if (meteo.weather[0].main === "Clouds") {
-      return <h1>Nuageux</h1>
+      return <div id="Clouds"><h1>Nuageux</h1></div>
     } else if (meteo.weather[0].main === "Rain") {
-      return <h1>Pluie</h1>
+      return <div id="Rain"><h1>Pluie</h1></div>
     }
     else {
-      return <h1>{meteo.weather[0].main}</h1>
+      return <div><h1>{meteo.weather[0].main}</h1></div>
     }
 
 
