@@ -46,8 +46,6 @@ function App() {
     else {
       return <div><h1>{meteo.weather[0].main}</h1></div>
     }
-
-
   }
 
 
@@ -94,7 +92,7 @@ function App() {
               </div>
 
               <div className="humidite">
-                humidité :  {meteo.main.humidity} %
+                Humidité :  {meteo.main.humidity} %
               </div>
 
             </div>
