@@ -32,12 +32,7 @@ function App() {
   }
 
 
-
-
-
-
-
-  function Meteo(props) {
+  function RenvoyerTempEnFrançais(props) {
 
     if (meteo.weather[0].main === "Mist") {
       return <div id="Mist"><h1>Brouillard</h1></div>
@@ -93,7 +88,7 @@ function App() {
                 {Math.round(meteo.main.temp)}°c
               </div>
               <div className="meteo">
-                <Meteo />
+                <RenvoyerTempEnFrançais />
 
 
               </div>

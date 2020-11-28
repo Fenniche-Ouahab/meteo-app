@@ -1,3 +1,6 @@
+C'est une application Météo dans React JS, j'ai utilisé l'API <<Open Weather Map>>, pour passer des appels à une api Rest afin de renvoyer les données météorologiques actuelles.
+J'ai utilisé "Fetch API" moderne qui fournit une interface JavaScript pour l'accès et la manipulation des parties de la pipeline HTTP, avec les hooks et conditions React.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
